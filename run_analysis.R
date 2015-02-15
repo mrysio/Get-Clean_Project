@@ -1,15 +1,3 @@
-#Setting working directory to download and unzip the data files
-setwd("/home/mrysio/Repos/datasciencecoursera/Get_Clean/Project")
-
-#Download and unzip the data
-my_zip_name <-"smartphone_data" 
-url <- "http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(url, destfile = my_zip_name)
-unzip(my_zip_name)
-
-#Setting working directory for purpose of this project
-setwd("/home/mrysio/Repos/datasciencecoursera/Get_Clean/Project/UCI HAR Dataset/")
-
 #Read data into R and perform basic joins within test data sets and train data sets
 
 #Read test files

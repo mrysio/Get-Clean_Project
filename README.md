@@ -17,11 +17,12 @@ This repo includes:
 
 You should first take a look on CodeBook and then you can move on to the run_analysis script.
 
+#Please note: Script analysis_file.R will run only if your working directory is "UCI HAR Dataset". 
 
-Quick explanation what the analysis file do
+Quick explanation what the analysis file does
 ===============================================================================
 
-Download,unzip and read into R data sets and:
+Reads into R data sets and:
 
 1. Merges the training and the test sets to create one data set.
 
